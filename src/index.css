@@ -7,3 +7,72 @@
 body {
   font-family: "Inter", sans-serif;
 }
+
+.nav-menu {
+  animation: navActive 0.5s ease-in-out forwards;
+  @apply flex;
+}
+
+@keyframes navActive {
+  from {
+    @apply opacity-0;
+  }
+  to {
+    @apply opacity-100;
+  }
+}
+
+.nav-menu::before {
+  content: "";
+  animation: first 0.5s ease-in-out forwards;
+  @apply absolute top-0 right-0 bg-amber-500 rounded-bl-full -z-10;
+  /* @apply absolute -top-[52%] -right-[90%] bg-amber-500 rounded-full -z-10; */
+}
+
+@keyframes first {
+  from {
+    @apply w-0 h-0;
+  }
+  to {
+    @apply w-[120%] h-[75%];
+  }
+}
+
+.nav-menu::after {
+  content: "";
+  animation: second 0.5s ease-in-out 0.1s forwards;
+  @apply absolute top-0 right-0 bg-primary rounded-bl-full -z-10;
+  /* @apply absolute -top-[46%] -right-[100%] bg-primary rounded-full -z-10; */
+}
+
+@keyframes second {
+  from {
+    @apply w-0 h-0;
+  }
+  to {
+    @apply w-full h-[74%];
+  }
+}
+
+.nav-menu ul {
+  @apply opacity-100;
+}
+
+.button-close {
+  animation: close 1s ease-in-out forwards;
+}
+
+@keyframes close {
+  0% {
+    @apply -bottom-full;
+  }
+  50% {
+    @apply bottom-20;
+  }
+  75% {
+    @apply bottom-14;
+  }
+  100% {
+    @apply bottom-16;
+  }
+}

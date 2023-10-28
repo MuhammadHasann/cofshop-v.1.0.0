@@ -13,6 +13,7 @@ export default {
         primary: "#d97706",
         paragraph: "#64748b",
         dark: "#0f172a",
+        light: "#f1f5f9",
       },
       screens: {
         "2xl": "1320px",
