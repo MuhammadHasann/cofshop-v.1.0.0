@@ -9,6 +9,9 @@ export default {
       padding: "16px",
     },
     extend: {
+      fontSize: {
+        xxs: "10px",
+      },
       colors: {
         primary: "#d97706",
         paragraph: "#64748b",

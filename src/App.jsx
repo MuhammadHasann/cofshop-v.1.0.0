@@ -13,6 +13,9 @@ const App = () => {
         <Route path="/menu" element={<Menu />} />
         <Route path="/location" element={<Location />} />
       </Routes>
+      <div id="category" className="w-full h-[200vh] bg-sky-200">
+        <h1>Hello World</h1>
+      </div>
     </div>
   );
 };

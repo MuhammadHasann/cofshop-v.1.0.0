@@ -1,8 +1,11 @@
+/* eslint-disable react-hooks/exhaustive-deps */
+import Hero from "../components/hero";
+
 const Home = () => {
   return (
-    <div className="container">
-      <h1>Home Page</h1>
-    </div>
+    <>
+      <Hero />
+    </>
   );
 };
 
