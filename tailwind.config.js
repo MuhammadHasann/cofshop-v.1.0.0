@@ -21,6 +21,12 @@ export default {
       screens: {
         "2xl": "1320px",
       },
+      height: {
+        42: "168px",
+      },
+      backgroundImage: {
+        "category-pattern": "url('/assets/image/resource/category banner.jpg')",
+      },
     },
   },
 };
