@@ -26,22 +26,6 @@ const Categories = () => {
               </svg>
             </Link>
           </Banner>
-          {/* <div className="col-span-full flex h-32 rounded-lg overflow-hidden md:col-span-2 md:row-start-2 md:row-span-2 md:h-42 md:rounded-2xl lg:h-60">
-            <div className="flex flex-col gap-1 p-2 w-1/2 bg-[#181818] text-white md:gap-2 md:p-3 lg:gap-4 lg:p-5 lg:w-2/5">
-              <h2 className="text-xs font-semibold md:text-sm lg:text-base">Enjoy the sensation of a coffee shop</h2>
-              <p className="flex-1 text-xxs lg:text-xs">How delicious the menus from our coffee shop are</p>
-              <Link
-                to="/menu"
-                className="cursor-pointer flex items-center py-1 px-3 w-fit bg-transparent text-xxs font-semibold border border-white rounded-full transition duration-300 ease-in-out hover:bg-white hover:bg-opacity-10 lg:px-4 lg:text-xs"
-              >
-                See menu
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-4 h-4 lg:w-5 lg:h-5">
-                  <path fillRule="evenodd" d="M5 10a.75.75 0 01.75-.75h6.638L10.23 7.29a.75.75 0 111.04-1.08l3.5 3.25a.75.75 0 010 1.08l-3.5 3.25a.75.75 0 11-1.04-1.08l2.158-1.96H5.75A.75.75 0 015 10z" clipRule="evenodd" />
-                </svg>
-              </Link>
-            </div>
-            <div className="w-1/2 bg-category-pattern bg-cover bg-center lg:w-3/5"></div>
-          </div> */}
           <CategoryBlock
             title="Popular"
             linkTo="/menu"

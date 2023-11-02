@@ -2,6 +2,7 @@
 import Banner from "../components/banner";
 import Categories from "../components/categories";
 import Hero from "../components/hero";
+import Catalog from "../components/catalog";
 
 const Home = () => {
   return (
@@ -22,6 +23,7 @@ const Home = () => {
           />
         </div>
       </section>
+      <Catalog />
       <section className="py-5 w-full">
         <div className="container">
           <Banner

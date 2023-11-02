@@ -1,0 +1,570 @@
+[
+  {
+    "id": 1,
+    "name": "White Chocolate Mocha Frappuccino",
+    "price": 4.15,
+    "rate": 14,
+    "src": "/assets/image/product/cold coffee/White Chocolate Mocha Frappuccino.png",
+    "category": "Cold Coffee"
+  },
+  {
+    "id": 2,
+    "name": "Caramel Coffee",
+    "price": 4.15,
+    "rate": 6,
+    "src": "/assets/image/product/cold coffee/Caramel Coffee.png",
+    "category": "Cold Coffee"
+  },
+  {
+    "id": 3,
+    "name": "Coffee Frappuccino",
+    "price": 4.15,
+    "rate": 3,
+    "src": "/assets/image/product/cold coffee/Coffee Frappuccino.png",
+    "category": "Cold Coffee"
+  },
+  {
+    "id": 4,
+    "name": "Cold Brew with Milk",
+    "price": 3.75,
+    "rate": 18,
+    "src": "/assets/image/product/cold coffee/Cold Brew with Milk.png",
+    "category": "Cold Coffee"
+  },
+  {
+    "id": 5,
+    "name": "Cold Brew with Salted Caramel Cream",
+    "price": 3.75,
+    "rate": 14,
+    "src": "/assets/image/product/cold coffee/Cold Brew with Salted Caramel Cream.png",
+    "category": "Cold Coffee"
+  },
+  {
+    "id": 6,
+    "name": "Cold Brew with Vanilla Sweet Cream",
+    "price": 3.75,
+    "rate": 3,
+    "src": "/assets/image/product/cold coffee/Cold Brew with Vanilla Sweet Cream.png",
+    "category": "Cold Coffee"
+  },
+  {
+    "id": 7,
+    "name": "Cold Brew",
+    "price": 3.75,
+    "rate": 13,
+    "src": "/assets/image/product/cold coffee/Cold Brew.png",
+    "category": "Cold Coffee"
+  },
+  {
+    "id": 8,
+    "name": "Dark Mocha",
+    "price": 4.25,
+    "rate": 9,
+    "src": "/assets/image/product/cold coffee/Dark Mocha.png",
+    "category": "Cold Coffee"
+  },
+  {
+    "id": 9,
+    "name": "Espresso Frappuccino",
+    "price": 4.15,
+    "rate": 14,
+    "src": "/assets/image/product/cold coffee/Espresso Frappuccino.png",
+    "category": "Cold Coffee"
+  },
+  {
+    "id": 10,
+    "name": "Java Chip",
+    "price": 4.25,
+    "rate": 8,
+    "src": "/assets/image/product/cold coffee/Java Chip.png",
+    "category": "Cold Coffee"
+  },
+  {
+    "id": 11,
+    "name": "Mocha",
+    "price": 4.15,
+    "rate": 20,
+    "src": "/assets/image/product/cold coffee/Mocha.png",
+    "category": "Cold Coffee"
+  },
+  {
+    "id": 12,
+    "name": "Nitro Cold Brew with Vanilla Sweet Cream",
+    "price": 3.75,
+    "rate": 1,
+    "src": "/assets/image/product/cold coffee/Nitro Cold Brew with Vanilla Sweet Cream.png",
+    "category": "Cold Coffee"
+  },
+  {
+    "id": 13,
+    "name": "Nitro Cold Brew",
+    "price": 3.75,
+    "rate": 10,
+    "src": "/assets/image/product/cold coffee/Nitro Cold Brew.png",
+    "category": "Cold Coffee"
+  },
+  {
+    "id": 14,
+    "name": "Pumpkin Spice Cold Brew",
+    "price": 3.75,
+    "rate": 18,
+    "src": "/assets/image/product/cold coffee/Pumpkin Spice Cold Brew.png",
+    "category": "Cold Coffee"
+  },
+  {
+    "id": 15,
+    "name": "Triple Mocha",
+    "price": 4.15,
+    "rate": 13,
+    "src": "/assets/image/product/cold coffee/Triple Mocha.png",
+    "category": "Cold Coffee"
+  },
+  {
+    "id": 16,
+    "name": "Ultra Caramel",
+    "price": 4.15,
+    "rate": 11,
+    "src": "/assets/image/product/cold coffee/Ultra Caramel.png",
+    "category": "Cold Coffee"
+  },
+  {
+    "id": 17,
+    "name": "White Chocolate",
+    "price": 4.15,
+    "rate": 2,
+    "src": "/assets/image/product/drinks/White Chocolate.png",
+    "category": "Drinks"
+  },
+  {
+    "id": 18,
+    "name": "Caramel Cream",
+    "price": 4.15,
+    "rate": 6,
+    "src": "/assets/image/product/drinks/Caramel Cream.png",
+    "category": "Drinks"
+  },
+  {
+    "id": 19,
+    "name": "Chai Cream",
+    "price": 4.15,
+    "rate": 15,
+    "src": "/assets/image/product/drinks/Chai Cream.png",
+    "category": "Drinks"
+  },
+  {
+    "id": 20,
+    "name": "Chocolate Cream",
+    "price": 4.15,
+    "rate": 5,
+    "src": "/assets/image/product/drinks/Chocolate Cream.png",
+    "category": "Drinks"
+  },
+  {
+    "id": 21,
+    "name": "Cookies & Cream",
+    "price": 4.15,
+    "rate": 4,
+    "src": "/assets/image/product/drinks/Cookies & Cream.png",
+    "category": "Drinks"
+  },
+  {
+    "id": 22,
+    "name": "Double Chocolate Chip",
+    "price": 4.15,
+    "rate": 12,
+    "src": "/assets/image/product/drinks/Double Chocolate Chip.png",
+    "category": "Drinks"
+  },
+  {
+    "id": 23,
+    "name": "Dragon Drink",
+    "price": 3.15,
+    "rate": 11,
+    "src": "/assets/image/product/drinks/Dragon Drink.png",
+    "category": "Drinks"
+  },
+  {
+    "id": 24,
+    "name": "Iced Cappuccino",
+    "price": 4.15,
+    "rate": 1,
+    "src": "/assets/image/product/drinks/Iced Cappuccino.png",
+    "category": "Drinks"
+  },
+  {
+    "id": 25,
+    "name": "Mango Dragonfruit Refresher",
+    "price": 3.15,
+    "rate": 9,
+    "src": "/assets/image/product/drinks/Mango Dragonfruit Refresher.png",
+    "category": "Drinks"
+  },
+  {
+    "id": 26,
+    "name": "Mango Passion Fruit Juice Blend",
+    "price": 4.15,
+    "rate": 14,
+    "src": "/assets/image/product/drinks/Mango Passion Fruit Juice Blend.png",
+    "category": "Drinks"
+  },
+  {
+    "id": 27,
+    "name": "Matcha Green Tea",
+    "price": 4.15,
+    "rate": 3,
+    "src": "/assets/image/product/drinks/Matcha Green Tea.png",
+    "category": "Drinks"
+  },
+  {
+    "id": 28,
+    "name": "Pink Drink",
+    "price": 3.15,
+    "rate": 8,
+    "src": "/assets/image/product/drinks/Pink Drink.png",
+    "category": "Drinks"
+  },
+  {
+    "id": 29,
+    "name": "Pumpkin Spice",
+    "price": 4.15,
+    "rate": 17,
+    "src": "/assets/image/product/drinks/Pumpkin Spice.png",
+    "category": "Drinks"
+  },
+  {
+    "id": 30,
+    "name": "Raspberry Black Currant Juice Blend",
+    "price": 4.15,
+    "rate": 17,
+    "src": "/assets/image/product/drinks/Raspberry Black Currant Juice Blend.png",
+    "category": "Drinks"
+  },
+  {
+    "id": 31,
+    "name": "Strawberries & Cream",
+    "price": 4.15,
+    "rate": 5,
+    "src": "/assets/image/product/drinks/Strawberries & Cream.png",
+    "category": "Drinks"
+  },
+  {
+    "id": 32,
+    "name": "Strawberry Acai Refresher",
+    "price": 3.15,
+    "rate": 21,
+    "src": "/assets/image/product/drinks/Strawberry Acai Refresher.png",
+    "category": "Drinks"
+  },
+  {
+    "id": 33,
+    "name": "Vanilla Cream",
+    "price": 4.15,
+    "rate": 10,
+    "src": "/assets/image/product/drinks/Vanilla Cream.png",
+    "category": "Drinks"
+  },
+  {
+    "id": 34,
+    "name": "White Chocolate Mocha",
+    "price": 2.75,
+    "rate": 11,
+    "src": "/assets/image/product/hot coffee/White Chocolate Mocha.png",
+    "category": "Hot Coffee"
+  },
+  {
+    "id": 35,
+    "name": "Americano",
+    "price": 2.25,
+    "rate": 15,
+    "src": "/assets/image/product/hot coffee/Americano.png",
+    "category": "Hot Coffee"
+  },
+  {
+    "id": 36,
+    "name": "Brewed Coffee",
+    "price": 2.25,
+    "rate": 11,
+    "src": "/assets/image/product/hot coffee/Brewed Coffee.png",
+    "category": "Hot Coffee"
+  },
+  {
+    "id": 37,
+    "name": "Caffè Latte",
+    "price": 2.75,
+    "rate": 17,
+    "src": "/assets/image/product/hot coffee/Caffè Latte.png",
+    "category": "Hot Coffee"
+  },
+  {
+    "id": 38,
+    "name": "Caffè Misto",
+    "price": 2.75,
+    "rate": 20,
+    "src": "/assets/image/product/hot coffee/Caffè Misto.png",
+    "category": "Hot Coffee"
+  },
+  {
+    "id": 39,
+    "name": "Caffè Mocha",
+    "price": 2.75,
+    "rate": 1,
+    "src": "/assets/image/product/hot coffee/Caffè Mocha.png",
+    "category": "Hot Coffee"
+  },
+  {
+    "id": 40,
+    "name": "Cappuccino",
+    "price": 2.75,
+    "rate": 16,
+    "src": "/assets/image/product/hot coffee/Cappuccino.png",
+    "category": "Hot Coffee"
+  },
+  {
+    "id": 41,
+    "name": "Caramel Macchiato",
+    "price": 2.75,
+    "rate": 10,
+    "src": "/assets/image/product/hot coffee/Caramel Macchiato.png",
+    "category": "Hot Coffee"
+  },
+  {
+    "id": 42,
+    "name": "Espresso",
+    "price": 2.15,
+    "rate": 11,
+    "src": "/assets/image/product/hot coffee/Espresso.png",
+    "category": "Hot Coffee"
+  },
+  {
+    "id": 43,
+    "name": "Flat White",
+    "price": 2.75,
+    "rate": 8,
+    "src": "/assets/image/product/hot coffee/Flat White.png",
+    "category": "Hot Coffee"
+  },
+  {
+    "id": 44,
+    "name": "Pumpkin Spice Latte",
+    "price": 2.75,
+    "rate": 11,
+    "src": "/assets/image/product/hot coffee/Pumpkin Spice Latte.png",
+    "category": "Hot Coffee"
+  },
+  {
+    "id": 45,
+    "name": "Iced Strawberry Green Tea Lemonade",
+    "price": 3.15,
+    "rate": 18,
+    "src": "/assets/image/product/iced tea/Iced Strawberry Green Tea Lemonade.png",
+    "category": "Iced Tea"
+  },
+  {
+    "id": 46,
+    "name": "Iced Chai Tea Latte",
+    "price": 3.15,
+    "rate": 14,
+    "src": "/assets/image/product/iced tea/Iced Chai Tea Latte.png",
+    "category": "Iced Tea"
+  },
+  {
+    "id": 47,
+    "name": "Iced Green Tea Lemonade",
+    "price": 3.15,
+    "rate": 19,
+    "src": "/assets/image/product/iced tea/Iced Green Tea Lemonade.png",
+    "category": "Iced Tea"
+  },
+  {
+    "id": 48,
+    "name": "Iced Green Tea",
+    "price": 3.15,
+    "rate": 18,
+    "src": "/assets/image/product/iced tea/Iced Green Tea.png",
+    "category": "Iced Tea"
+  },
+  {
+    "id": 49,
+    "name": "Iced Hibiscus Tea Lemonade",
+    "price": 3.15,
+    "rate": 19,
+    "src": "/assets/image/product/iced tea/Iced Hibiscus Tea Lemonade.png",
+    "category": "Iced Tea"
+  },
+  {
+    "id": 50,
+    "name": "Iced Matcha & Espresso Fusion",
+    "price": 3.75,
+    "rate": 16,
+    "src": "/assets/image/product/iced tea/Iced Matcha & Espresso Fusion.png",
+    "category": "Iced Tea"
+  },
+  {
+    "id": 51,
+    "name": "Iced Shaken Black Tea with Ruby Grapefruit and Honey",
+    "price": 3.15,
+    "rate": 1,
+    "src": "/assets/image/product/iced tea/Iced Shaken Black Tea with Ruby Grapefruit and Honey.png",
+    "category": "Iced Tea"
+  },
+  {
+    "id": 52,
+    "name": "Mint Majesty Herbal Tea",
+    "price": 3.75,
+    "rate": 14,
+    "src": "/assets/image/product/teas/Mint Majesty Herbal Tea.png",
+    "category": "Teas"
+  },
+  {
+    "id": 53,
+    "name": "Black Tea with Ruby Grapefruit & Honey",
+    "price": 3.75,
+    "rate": 8,
+    "src": "/assets/image/product/teas/Black Tea with Ruby Grapefruit & Honey.png",
+    "category": "Teas"
+  },
+  {
+    "id": 54,
+    "name": "Chai Tea Latte",
+    "price": 3.75,
+    "rate": 14,
+    "src": "/assets/image/product/teas/Chai Tea Latte.png",
+    "category": "Teas"
+  },
+  {
+    "id": 55,
+    "name": "Earl Grey Black Tea",
+    "price": 3.75,
+    "rate": 19,
+    "src": "/assets/image/product/teas/Earl Grey Black Tea.png",
+    "category": "Teas"
+  },
+  {
+    "id": 56,
+    "name": "Emperor's Clouds & Mist Green Tea",
+    "price": 3.75,
+    "rate": 19,
+    "src": "/assets/image/product/teas/Emperor's Clouds & Mist Green Tea.png",
+    "category": "Teas"
+  },
+  {
+    "id": 57,
+    "name": "English Breakfast Tea Latte",
+    "price": 3.75,
+    "rate": 3,
+    "src": "/assets/image/product/teas/English Breakfast Tea Latte.png",
+    "category": "Teas"
+  },
+  {
+    "id": 58,
+    "name": "English Breakfast Tea",
+    "price": 3.75,
+    "rate": 4,
+    "src": "/assets/image/product/teas/English Breakfast Tea.png",
+    "category": "Teas"
+  },
+  {
+    "id": 59,
+    "name": "Espresso & Matcha Fusion",
+    "price": 3.75,
+    "rate": 17,
+    "src": "/assets/image/product/teas/Espresso & Matcha Fusion.png",
+    "category": "Teas"
+  },
+  {
+    "id": 60,
+    "name": "Green Tea Latte",
+    "price": 3.75,
+    "rate": 7,
+    "src": "/assets/image/product/teas/Green Tea Latte.png",
+    "category": "Teas"
+  },
+  {
+    "id": 61,
+    "name": "Plant-Based Brekky Roll",
+    "price": 5.15,
+    "rate": 1,
+    "src": "/assets/image/product/food/Plant-Based Brekky Roll.png",
+    "category": "Food"
+  },
+  {
+    "id": 62,
+    "name": "Banana Bread",
+    "price": 4.95,
+    "rate": 18,
+    "src": "/assets/image/product/food/Banana Bread.png",
+    "category": "Food"
+  },
+  {
+    "id": 63,
+    "name": "Blueberry Crumble Muffin",
+    "price": 5.25,
+    "rate": 14,
+    "src": "/assets/image/product/food/Blueberry Crumble Muffin.png",
+    "category": "Food"
+  },
+  {
+    "id": 64,
+    "name": "Butter Croissant",
+    "price": 4.95,
+    "rate": 21,
+    "src": "/assets/image/product/food/Butter Croissant.png",
+    "category": "Food"
+  },
+  {
+    "id": 65,
+    "name": "Caramel Slice",
+    "price": 4.95,
+    "rate": 7,
+    "src": "/assets/image/product/food/Caramel Slice.png",
+    "category": "Food"
+  },
+  {
+    "id": 66,
+    "name": "Chargrilled Vegetable & Vegan Feta Panini",
+    "price": 4.95,
+    "rate": 11,
+    "src": "/assets/image/product/food/Chargrilled Vegetable & Vegan Feta Panini.png",
+    "category": "Food"
+  },
+  {
+    "id": 67,
+    "name": "Cheese & Tomato Toastie",
+    "price": 3.95,
+    "rate": 13,
+    "src": "/assets/image/product/food/Cheese & Tomato Toastie.png",
+    "category": "Food"
+  },
+  {
+    "id": 68,
+    "name": "Chocolate Chip Cookie",
+    "price": 5.15,
+    "rate": 16,
+    "src": "/assets/image/product/food/Chocolate Chip Cookie.png",
+    "category": "Food"
+  },
+  {
+    "id": 69,
+    "name": "Chocolate Chunk Muffin",
+    "price": 4.25,
+    "rate": 5,
+    "src": "/assets/image/product/food/Chocolate Chunk Muffin.png",
+    "category": "Food"
+  },
+  {
+    "id": 70,
+    "name": "Fruit Salad",
+    "price": 4.75,
+    "rate": 9,
+    "src": "/assets/image/product/food/Fruit Salad.png",
+    "category": "Food"
+  },
+  {
+    "id": 71,
+    "name": "Macaron",
+    "price": 5.15,
+    "rate": 14,
+    "src": "/assets/image/product/food/Macaron.png",
+    "category": "Food"
+  }
+]
