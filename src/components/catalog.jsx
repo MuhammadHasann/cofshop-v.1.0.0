@@ -2,8 +2,6 @@
 import { useEffect, useRef, useState } from "react";
 import Product from "./product";
 import Slider from "react-slick";
-import "../../node_modules/slick-carousel/slick/slick.css";
-import "../../node_modules/slick-carousel/slick/slick-theme.css";
 
 const Catalog = () => {
   const [menus, setMenus] = useState([]);
@@ -25,42 +23,36 @@ const Catalog = () => {
     speed: 500,
     slidesToShow: 2,
     slidesToScroll: 1,
-    variabelWidth: true,
     initialSlide: 0,
     responsive: [
       {
         breakpoint: 640,
         settings: {
           slidesToShow: 2,
-          initialSlide: 0,
         },
       },
       {
         breakpoint: 768,
         settings: {
           slidesToShow: 3,
-          initialSlide: 0,
         },
       },
       {
         breakpoint: 1024,
         settings: {
           slidesToShow: 4,
-          initialSlide: 0,
         },
       },
       {
         breakpoint: 1280,
         settings: {
           slidesToShow: 4,
-          initialSlide: 0,
         },
       },
       {
         breakpoint: 1536,
         settings: {
           slidesToShow: 4,
-          initialSlide: 0,
         },
       },
     ],
@@ -90,9 +82,9 @@ const Catalog = () => {
   }, [menus]);
 
   return (
-    <section className="py-10 w-full">
+    <section className="py-10 w-full bg-white">
       <div className="container">
-        <div className="col-span-full flex justify-between items-center mb-6 md:mb-8 lg:mb-10">
+        <div className="col-span-full flex justify-between items-center mb-3 md:mb-5 lg:mb-7">
           <h1 className="text-sm font-bold text-dark lg:text-base">Popular Menu</h1>
           <div className="flex gap-3">
             <button className="cursor-pointer p-[2px] bg-white rounded-full ring-1 ring-black lg:p-1 lg:ring-2 transition-all duration-300 ease-in-out hover:scale-[0.95]" onClick={previous}>
@@ -107,9 +99,7 @@ const Catalog = () => {
             </button>
           </div>
         </div>
-        {/* <div className="grid grid-cols-2 gap-5 w64">
-        </div> */}
-        <Slider ref={sliderRef} {...settings}>
+        <Slider ref={sliderRef} {...settings} className="py-3">
           {popular.map((menu) => (
             <Product key={menu.id} image={menu.src} name={menu.name} price={menu.price} rate={menu.rate} width="mx-auto w-40 lg:w-52 xl:w-[264px]" />
           ))}

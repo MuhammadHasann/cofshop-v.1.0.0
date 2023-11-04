@@ -76,3 +76,7 @@ body {
     @apply bottom-16;
   }
 }
+
+.slick-dots li.slick-active div {
+  @apply bg-dark;
+}

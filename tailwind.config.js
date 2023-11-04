@@ -9,6 +9,9 @@ export default {
       padding: "16px",
     },
     extend: {
+      fontFamily: {
+        "bakbak-one": ['"Bakbak One"', '"sans-serif"'],
+      },
       fontSize: {
         xxs: "10px",
       },

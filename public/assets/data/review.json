@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Avi Nash",
+    "review": "Highly recommended if you want to do touristy things in Seattle 😍 we visited late in the evening around 7pm. Small queue with 10 ppl. Staffs are super friendly, smiling and welcoming with kindness. Loved the coffee and the hot chocolate. Great spot for coffee lovers and Starbucks fans 😉",
+    "rate": 5
+  },
+  {
+    "id": 2,
+    "name": "Kalley H",
+    "review": "Super cool experience to get to see the FIRST (in reality “second”- the first one burned down), Starbucks location. I recommend getting there early, otherwise, there's always a long line. We got there pretty late in the afternoon so we had to wait about 30 minutes to get inside.",
+    "rate": 5
+  },
+  {
+    "id": 3,
+    "name": "Kiet TT",
+    "review": "This is the first ever Starbucks location. It all started here! I know the wait could be very long but it is definitely worth the visit here. The staff are friendly and the drinks were pretty good. You can also get Starbucks memorabilia and drinks exclusive to this location.",
+    "rate": 4
+  },
+  {
+    "id": 4,
+    "name": "Joe Chowaniec",
+    "review": "Finally made it to the original location of Starbucks .. quite the little store with a large line outside.  We lucked out with only a 10 minute wait.  Waits can be up to 40 minutes.  Once inside service  was quick and extremely friendly. Staff seemed to enjoy working at this location.",
+    "rate": 5
+  }
+]

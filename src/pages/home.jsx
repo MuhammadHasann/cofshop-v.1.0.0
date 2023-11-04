@@ -3,6 +3,7 @@ import Banner from "../components/banner";
 import Categories from "../components/categories";
 import Hero from "../components/hero";
 import Catalog from "../components/catalog";
+import Testimonial from "../components/testimonial";
 
 const Home = () => {
   return (
@@ -43,6 +44,7 @@ const Home = () => {
           </Banner>
         </div>
       </section>
+      <Testimonial />
     </>
   );
 };
