@@ -8,18 +8,10 @@ const Catalog = () => {
   const [popular, setPopular] = useState([]);
   const sliderRef = useRef(null);
 
-  const next = () => {
-    sliderRef.current.slickNext();
-  };
-
-  const previous = () => {
-    sliderRef.current.slickPrev();
-  };
-
-  const settings = {
+  const settings2 = {
     arrows: false,
     dots: false,
-    infinite: false,
+    infinite: true,
     speed: 500,
     slidesToShow: 2,
     slidesToScroll: 1,
@@ -81,6 +73,14 @@ const Catalog = () => {
     }
   }, [menus]);
 
+  const next = () => {
+    sliderRef.current.slickNext();
+  };
+
+  const previous = () => {
+    sliderRef.current.slickPrev();
+  };
+
   return (
     <section className="py-10 w-full bg-white">
       <div className="container">
@@ -99,7 +99,7 @@ const Catalog = () => {
             </button>
           </div>
         </div>
-        <Slider ref={sliderRef} {...settings} className="py-3">
+        <Slider ref={sliderRef} {...settings2} className="py-3">
           {popular.map((menu) => (
             <Product key={menu.id} image={menu.src} name={menu.name} price={menu.price} rate={menu.rate} width="mx-auto w-40 lg:w-52 xl:w-[264px]" />
           ))}

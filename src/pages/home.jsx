@@ -4,6 +4,7 @@ import Categories from "../components/categories";
 import Hero from "../components/hero";
 import Catalog from "../components/catalog";
 import Testimonial from "../components/testimonial";
+import Gallery from "../components/gallery";
 
 const Home = () => {
   return (
@@ -45,6 +46,7 @@ const Home = () => {
         </div>
       </section>
       <Testimonial />
+      <Gallery />
     </>
   );
 };

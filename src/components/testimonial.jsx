@@ -14,7 +14,7 @@ const Testimonial = () => {
     slidesToScroll: 1,
     initialSlide: 0,
     autoplay: true,
-    autoplaySpeed: 5000,
+    autoplaySpeed: 10000,
     customPaging: () => <div className="relative mt-4 w-4 h-1 bg-gray-400 rounded-full md:mt-6 lg:mt-8 lg:h-[6px]"></div>,
     responsive: [
       {
