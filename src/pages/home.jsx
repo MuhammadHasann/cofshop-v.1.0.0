@@ -5,8 +5,77 @@ import Hero from "../components/hero";
 import Catalog from "../components/catalog";
 import Testimonial from "../components/testimonial";
 import Gallery from "../components/gallery";
+import { useEffect, useState } from "react";
 
 const Home = () => {
+  const [menus, setMenus] = useState([]);
+  const [popular, setPopular] = useState([]);
+
+  const settings2 = {
+    arrows: false,
+    dots: false,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 2,
+    slidesToScroll: 1,
+    initialSlide: 0,
+    responsive: [
+      {
+        breakpoint: 640,
+        settings: {
+          slidesToShow: 2,
+        },
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 3,
+        },
+      },
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 4,
+        },
+      },
+      {
+        breakpoint: 1280,
+        settings: {
+          slidesToShow: 4,
+        },
+      },
+      {
+        breakpoint: 1536,
+        settings: {
+          slidesToShow: 4,
+        },
+      },
+    ],
+  };
+
+  const getMenus = async () => {
+    try {
+      let response = "";
+      response = await fetch("/assets/data/menu.json");
+      const data = await response.json();
+
+      setMenus(data);
+    } catch (err) {
+      console.log(err.message);
+    }
+  };
+
+  useEffect(() => {
+    getMenus();
+  }, []);
+
+  useEffect(() => {
+    if (menus.length > 0) {
+      const sortData = menus.sort((a, b) => b.rate - a.rate);
+      setPopular(sortData.slice(0, 8));
+    }
+  }, [menus]);
+
   return (
     <>
       <Hero />
@@ -25,7 +94,7 @@ const Home = () => {
           />
         </div>
       </section>
-      <Catalog />
+      <Catalog settings2={settings2} datas={popular} />
       <section className="py-5 w-full">
         <div className="container">
           <Banner

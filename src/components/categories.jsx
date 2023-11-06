@@ -35,41 +35,41 @@ const Categories = () => {
           />
           <CategoryBlock
             title="Hot Coffee"
-            linkTo="/menu"
+            linkTo="/menu/hot-coffee"
             images={["/assets/image/product/hot coffee/Americano.png"]}
             classLink="h-20 bg-white md:row-start-4 md:row-span-1 md:h-40 lg:h-44"
             classImage="-bottom-8 -right-8 -rotate-45 md:-bottom-14 md:-right-14 md:w-56 md:h-56 lg:-bottom-16 lg:-right-16 lg:w-64 lg:h-64"
           />
           <CategoryBlock
             title="Teas"
-            linkTo="/menu"
+            linkTo="/menu/teas"
             images={["/assets/image/product/teas/Black Tea with Ruby Grapefruit & Honey.png"]}
             classLink="h-20 bg-white md:row-start-4 md:row-span-1 md:h-40 lg:h-44"
             classImage="-bottom-8 -right-8 -rotate-45 md:-bottom-14 md:-right-14 md:w-56 md:h-56 lg:-bottom-16 lg:-right-16 lg:w-64 lg:h-64"
           />
           <CategoryBlock
             title="Cold Coffee"
-            linkTo="/menu"
+            linkTo="/menu/cold-coffee"
             images={["/assets/image/product/cold coffee/Ultra Caramel.png"]}
             classLink="h-20 bg-white md:row-start-3 md:row-span-3 md:h-full"
             classImage="-bottom-8 -right-8 -rotate-45 md:-bottom-8 md:-right-8 md:w-64 md:h-64 md:-rotate-[30deg] lg:-bottom-14 lg:-right-14 lg:w-[340px] lg:h-[340px]"
           />
           <CategoryBlock
             title="Iced Tea"
-            linkTo="/menu"
+            linkTo="/menu/iced-tea"
             images={["/assets/image/product/iced tea/Iced Green Tea.png"]}
             classLink="h-20 bg-white md:row-start-3 md:row-span-3 md:h-full"
             classImage="-bottom-8 -right-8 -rotate-45 md:-bottom-8 md:-right-8 md:w-64 md:h-64 md:-rotate-[30deg] lg:-bottom-14 lg:-right-14 lg:w-[340px] lg:h-[340px]"
           />
           <CategoryBlock
             title="Food"
-            linkTo="/menu"
+            linkTo="/menu/foods"
             images={["/assets/image/product/food/Chargrilled Vegetable & Vegan Feta Panini.png"]}
             classLink="h-20 bg-white md:col-span-2 md:row-start-5 md:row-span-2 md:h-full"
             classImage="-bottom-4 -right-4 w-28 h-28 md:-bottom-12 md:right-1 md:w-64 md:h-64 lg:-bottom-14 lg:right-2 lg:w-80 lg:h-80"
           />
           <Link
-            to="/menu"
+            to="/menu/drinks"
             className="relative h-20 bg-white rounded-lg drop-shadow-[0_0_2px_rgba(0,0,0,0.15)] overflow-hidden transition duration-300 ease-in-out hover:scale-[0.98] md:col-span-2 md:row-start-6 md:row-span-1 md:h-24 md:rounded-2xl lg:h-32"
           >
             <div className="p-2 md:p-3 lg:p-5">

@@ -32,9 +32,9 @@ const Navbar = () => {
               </li>
               <li className="group">
                 <Link
-                  to="/menu"
+                  to="/menu/popular"
                   className={`text-xs font-medium text-white flex transition duration-300 ease-in-out group-hover:text-dark after:scale-0 after:content-[''] after:absolute after:-bottom-1 after:left-1/2 after:-translate-x-1/2 after:w-6 after:h-[2px] after:bg-primary after:rounded-full after:transition after:duration-300 after:ease-in-out md:relative md:text-dark md:hover:after:scale-100 md:group-hover:text-primary md:group-hover:font-semibold ${
-                    location.pathname === "/menu" ? "md:text-primary md:after:scale-110" : ""
+                    /^\/menu\//.test(location.pathname) ? "md:text-primary md:after:scale-110" : ""
                   }`}
                   onClick={() => setActive(false)}
                 >
