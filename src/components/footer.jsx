@@ -33,16 +33,16 @@ const Footer = () => {
             <h1 className="mb-2 text-xs font-semibold text-white lg:text-sm">SOCIAL MEDIA</h1>
             <p className="w-3/4 text-xxs text-paragraph lg:w-full lg:text-xs">Follow us on Instagram and Facebook for updates and special offers!</p>
             <div className="flex gap-3 text-sm text-white lg:gap-4">
-              <a href="https://web.facebook.com/" target="_blank" rel="noreferrer">
+              <a href="https://web.facebook.com/" target="_blank" rel="noopener noreferrer">
                 <FontAwesomeIcon icon={faFacebook} className="cursor-pointer text-sm text-white transition-all duration-300 ease-in-out lg:text-base hover:opacity-80" />
               </a>
-              <a href="https://www.instagram.com/" target="_blank" rel="noreferrer">
+              <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
                 <FontAwesomeIcon icon={faInstagram} className="cursor-pointer text-sm text-white transition-all duration-300 ease-in-out lg:text-base hover:opacity-80" />
               </a>
-              <a href="https://www.tiktok.com/" target="_blank" rel="noreferrer">
+              <a href="https://www.tiktok.com/" target="_blank" rel="noopener noreferrer">
                 <FontAwesomeIcon icon={faTiktok} className="cursor-pointer text-sm text-white transition-all duration-300 ease-in-out lg:text-base hover:opacity-80" />
               </a>
-              <a href="https://web.whatsapp.com/" target="_blank" rel="noreferrer">
+              <a href="https://web.whatsapp.com/" target="_blank" rel="noopener noreferrer">
                 <FontAwesomeIcon icon={faWhatsapp} className="cursor-pointer text-sm text-white transition-all duration-300 ease-in-out hover:opacity-80" />
               </a>
             </div>
