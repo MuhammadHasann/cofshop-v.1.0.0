@@ -1,11 +1,11 @@
-import Banner from "../components/banner";
+import BannerShop from "../components/banner/BannerShop";
 
 const Location = () => {
   return (
     <>
       <section className="py-5 w-full bg-white lg:py-8">
         <div className="container">
-          <Banner
+          <BannerShop
             heading="Visit our coffee shop soon!"
             paragraph="It's time to experience coffee in a different way. Visit our coffee shop and expert touch of our baristas, every visit to our shop is an opportunity to explore unforgettable coffee flavors. Come join and discover the true pleasure of coffee."
             classBanner="flex-wrap-reverse w-full h-fit hidden md:flex"
@@ -13,7 +13,7 @@ const Location = () => {
             classHeading="w-3/4 text-2xl font-bold lg:text-4xl"
             classParagraph="flex-none text-xxs lg:text-xs"
             classImage="relative w-full h-52 bg-[url('/assets/image/resource/location-banner.jpg')] md:w-1/2 md:h-60 lg:h-80"
-          ></Banner>
+          ></BannerShop>
           <h1 className="w-1/2 text-xl font-bold text-dark md:hidden">Visit our coffee shop soon!</h1>
         </div>
       </section>

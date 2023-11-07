@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
-import Logo from "./logo";
+import AppLogo from "../../components/logo/AppLogo";
 
 const Navbar = () => {
   const [active, setActive] = useState(false);
@@ -10,11 +10,11 @@ const Navbar = () => {
     <header className="py-2 w-full bg-white">
       <div className="container">
         <section className="flex justify-between items-center w-full">
-          <Logo direction={"gap-2"} logo={"w-6 fill-primary md:w-9"} textLogo={"text-base font-extrabold text-dark md:text-xl"} />
+          <AppLogo direction={"gap-2"} logo={"w-6 fill-primary md:w-9"} textLogo={"text-base font-extrabold text-dark md:text-xl"} />
 
-          <button className="cursor-pointer flex flex-col items-end gap-1 md:hidden" onClick={() => setActive(true)}>
-            <span className="w-6 h-[2px] bg-dark rounded-full"></span>
-            <span className="w-5 h-[2px] bg-dark rounded-full"></span>
+          <button className="cursor-pointer flex flex-col items-end gap-1 group md:hidden" onClick={() => setActive(true)}>
+            <span className="w-6 h-[2px] bg-dark rounded-full transition-all duration-300 ease-in-out group-hover:w-5"></span>
+            <span className="w-5 h-[2px] bg-dark rounded-full transition-all duration-300 ease-in-out group-hover:w-6"></span>
           </button>
 
           <nav className={`fixed top-0 left-0 hidden justify-between p-10 w-full h-full bg-white z-50 ${active ? "nav-menu" : ""} md:static md:block md:p-0 md:w-fit md:bg-transparent md:z-0`}>
@@ -60,7 +60,7 @@ const Navbar = () => {
               </li>
             </ul>
 
-            <Logo direction={"flex-col md:hidden"} logo={"w-10 fill-white"} textLogo={"text-base font-extrabold text-white"} />
+            <AppLogo direction={"flex-col md:hidden"} logo={"w-10 fill-white"} textLogo={"text-base font-extrabold text-white"} />
 
             <button
               className="cursor-pointer absolute -bottom-full left-1/2 -translate-x-1/2 w-12 h-12 bg-primary text-3xl font-medium text-white text-center rounded-full ring-1 ring-white button-close md:hidden"

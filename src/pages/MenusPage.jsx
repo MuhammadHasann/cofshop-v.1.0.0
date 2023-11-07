@@ -1,29 +1,15 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 import { Link, useParams } from "react-router-dom";
-import Banner from "../components/banner";
-import Catalog from "../components/catalog";
+import BannerShop from "../components/banner/BannerShop";
+import ListMenus from "../layouts/lists/ListMenus";
 import { useEffect, useState } from "react";
+import AnchorScrollTo from "../utils/AnchorScrollTo";
 
 const Menu = () => {
   const [menus, setMenus] = useState([]);
   const [product, setProduct] = useState([]);
   const [title, setTitle] = useState([]);
   const params = useParams();
-
-  const handleClick = (event) => {
-    event.preventDefault();
-    const target = event.target;
-
-    if (target && target.getAttribute("href")) {
-      const targetId = target.getAttribute("href").substring(1);
-
-      const targetElement = document.getElementById(targetId);
-
-      if (targetElement) {
-        targetElement.scrollIntoView({ behavior: "smooth" });
-      }
-    }
-  };
 
   const getMenus = async () => {
     try {
@@ -78,7 +64,7 @@ const Menu = () => {
     <>
       <section className="py-5 w-full bg-white lg:py-8">
         <div className="container">
-          <Banner
+          <BannerShop
             heading="Have you had Coffee today?"
             paragraph="A sunny morning begins with the fresh aroma of a cup of coffee. Have you felt the warmth of coffee today? At Cofshop, we provide an unforgettable coffee experience. Come join us and enjoy every sip of coffee bliss. Choose from our menu below!"
             classBanner="flex-wrap-reverse w-full h-fit hidden md:flex"
@@ -90,14 +76,14 @@ const Menu = () => {
             <a
               href="#catalog"
               className="ccursor-pointer flex items-center py-1 px-3 w-fit bg-transparent text-xxs font-semibold border border-dark rounded-full transition duration-300 ease-in-out group hover:bg-white hover:bg-opacity-10 lg:px-4 lg:text-xs"
-              onClick={handleClick}
+              onClick={AnchorScrollTo}
             >
               See menu
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-4 h-4 transition duration-300 ease-in-out lg:w-5 lg:h-5 group-hover:rotate-90">
                 <path fillRule="evenodd" d="M5 10a.75.75 0 01.75-.75h6.638L10.23 7.29a.75.75 0 111.04-1.08l3.5 3.25a.75.75 0 010 1.08l-3.5 3.25a.75.75 0 11-1.04-1.08l2.158-1.96H5.75A.75.75 0 015 10z" clipRule="evenodd" />
               </svg>
             </a>
-          </Banner>
+          </BannerShop>
           <h1 className="w-1/2 text-xl font-bold text-dark md:hidden">Have you had Coffee today?</h1>
         </div>
       </section>
@@ -163,7 +149,7 @@ const Menu = () => {
           </div>
         </div>
       </section>
-      <Catalog arrows="hidden" datas={product} padding="pt-4 pb-14 md:pt-6 md:pb-20" title={title} />
+      <ListMenus arrows="hidden" datas={product} padding="pt-4 pb-14 md:pt-6 md:pb-20" title={title} />
     </>
   );
 };

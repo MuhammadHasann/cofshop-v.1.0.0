@@ -1,6 +1,6 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 import { useRef } from "react";
-import Product from "./product";
+import MenuCardItem from "../../components/cards/MenuCardItem";
 import Slider from "react-slick";
 
 const Catalog = ({ arrows, settings2, datas, padding, title }) => {
@@ -39,13 +39,13 @@ const Catalog = ({ arrows, settings2, datas, padding, title }) => {
         {location.pathname === "/" ? (
           <Slider ref={sliderRef} {...settings2} className="py-3">
             {datas.map((menu) => (
-              <Product key={menu.id} image={menu.src} name={menu.name} price={menu.price} rate={menu.rate} width="mx-auto w-40 lg:w-52 xl:w-[264px]" />
+              <MenuCardItem key={menu.id} image={menu.src} name={menu.name} price={menu.price} rate={menu.rate} width="mx-auto w-40 lg:w-52 xl:w-[264px]" />
             ))}
           </Slider>
         ) : (
           <div className="grid grid-cols-2 gap-5 md:grid-cols-3 md:gap-8 lg:grid-cols-4 lg:gap-12">
             {datas.map((menu) => (
-              <Product key={menu.id} image={menu.src} name={menu.name} price={menu.price} rate={menu.rate} />
+              <MenuCardItem key={menu.id} image={menu.src} name={menu.name} price={menu.price} rate={menu.rate} />
             ))}
           </div>
         )}

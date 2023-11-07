@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import TestimonialBlock from "./testimonialBlock";
+import UserFeedbackCard from "../../components/cards/UserFeedbackCard";
 import Slider from "react-slick";
 
 const Testimonial = () => {
@@ -77,7 +77,7 @@ const Testimonial = () => {
         </div>
         <Slider {...settings}>
           {reviews.map((data) => (
-            <TestimonialBlock key={data.id} name={data.name} review={data.review} rating={data.rate} />
+            <UserFeedbackCard key={data.id} name={data.name} review={data.review} rating={data.rate} />
           ))}
         </Slider>
       </div>

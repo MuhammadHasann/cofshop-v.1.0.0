@@ -1,20 +1,20 @@
 import { Routes, Route } from "react-router-dom";
-import Home from "./pages/home";
-import Menu from "./pages/menu";
-import Location from "./pages/location";
-import Navbar from "./components/nav";
-import Footer from "./components/footer";
+import HomePage from "./pages/HomePage";
+import MenusPage from "./pages/MenusPage";
+import LocationPage from "./pages/LocationPage";
+import NavMenuItems from "./layouts/header/NavMenuItems";
+import FooterSection from "./layouts/footer/FooterSection";
 
 const App = () => {
   return (
     <div className="app">
-      <Navbar />
+      <NavMenuItems />
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/menu/:category" element={<Menu />} />
-        <Route path="/location" element={<Location />} />
+        <Route path="/" element={<HomePage />} />
+        <Route path="/menu/:category" element={<MenusPage />} />
+        <Route path="/location" element={<LocationPage />} />
       </Routes>
-      <Footer />
+      <FooterSection />
     </div>
   );
 };

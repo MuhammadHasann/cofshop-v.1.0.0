@@ -1,10 +1,10 @@
 /* eslint-disable react-hooks/exhaustive-deps */
-import Banner from "../components/banner";
-import Categories from "../components/categories";
-import Hero from "../components/hero";
-import Catalog from "../components/catalog";
-import Testimonial from "../components/testimonial";
-import Gallery from "../components/gallery";
+import BannerShop from "../components/banner/BannerShop";
+import ProductCategoryView from "../layouts/lists/ProductCategoryView";
+import HeaderHeroBanner from "../layouts/header/HeaderHeroBanner";
+import ListMenus from "../layouts/lists/ListMenus";
+import UserFeedbackList from "../layouts/lists/UserFeedbackList";
+import UserReviewsGallery from "../layouts/lists/UserReviewsGallery";
 import { useEffect, useState } from "react";
 
 const Home = () => {
@@ -78,11 +78,11 @@ const Home = () => {
 
   return (
     <>
-      <Hero />
-      <Categories />
+      <HeaderHeroBanner />
+      <ProductCategoryView />
       <section className="py-5 w-full bg-white">
         <div className="container">
-          <Banner
+          <BannerShop
             heading="Start your day with Coffee"
             paragraph="Starting the day with full enthusiasm is the key to a successful day.
             Here, we believe that a delicious cup of coffee is the best way to start your morning."
@@ -94,10 +94,10 @@ const Home = () => {
           />
         </div>
       </section>
-      <Catalog settings2={settings2} datas={popular} />
+      <ListMenus settings2={settings2} datas={popular} />
       <section className="py-5 w-full">
         <div className="container">
-          <Banner
+          <BannerShop
             classBanner="relative"
             classText="absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 justify-center items-center text-xxs text-white z-10 md:gap-1 md:right-0 md:translate-x-0 lg:text-xs"
             classHeading="hidden"
@@ -111,11 +111,11 @@ const Home = () => {
               <p>Namun, hal itu akan membuat mata kita menjadi terbuka.</p>
             </div>
             <span className="inline-block w-52 h-4 text-2xl font-bold md:w-72 text-end md:h-5 md:text-4xl">&#8243;</span>
-          </Banner>
+          </BannerShop>
         </div>
       </section>
-      <Testimonial />
-      <Gallery />
+      <UserFeedbackList />
+      <UserReviewsGallery />
     </>
   );
 };
